@@ -15,13 +15,13 @@ import ConnectivitySection from "./components/ConnectivitySection";
 import ProgramsSection from "./components/ProgramsSection";
 import DistinctiveMBA from "./components/DistinctiveMBA";
 import AdmissionRoutes from "./components/AdmissionRoutes";
+import ScholarshipsSection from "./components/ScholarshipsSection";
 import StickyBottomCTA from "./components/StickyBottomCTA";
 import RecruitersVerticalMarquee from "./components/RecruitersVerticalMarquee";
 import PlacementGallery from "./components/PlacementGallery";
 import NotableAlumniMarquee from "./components/NotableAlumniMarquee";
 import LifeAtShobhit from "./components/LifeAtShobhit";
 import Footer from "./components/Footer";
-import ScholarshipsSection from "./components/ScholarshipsSection";
 
 export default function App() {
   const handleApplyNow = () => {
@@ -86,7 +86,7 @@ contact: mail@shobhituniversity.ac.in or NH-58, Modipuram, Meerut.
         <div className="w-full relative z-10">
           <div className="relative">
             <img
-              src="https://imgh.in/host/6m7yuw"
+              src="https://imgh.in/host/4b7ise"
               alt="Shobhit University Admissions Banner"
               className="w-full h-auto object-cover select-none block"
               referrerPolicy="no-referrer"

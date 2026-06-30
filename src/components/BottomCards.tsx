@@ -16,51 +16,48 @@ interface RankingItem {
 
 const RANKINGS: RankingItem[] = [
   {
-    id: "the-times",
-    source: "The Times",
-    rank: "Ranked 28",
-    description: "Amongst Top 100 B-Schools in India",
-    survey: "Times B-School Ranking Survey 2024",
-    published: "Published in The Week Magazine on February 1, 2024",
-    badgeColor: "bg-blue-50 border-blue-200/60 text-blue-800",
-    accentColor: "text-blue-600 group-hover:text-blue-700",
-    bgGradient: "group-hover:border-blue-500/30 group-hover:shadow-[0_20px_40px_-15px_rgba(59,130,246,0.1)]",
-    logoUrl: "https://www.aimglobalmedia.com/wp-content/uploads/2023/03/Medios_AIM_The-Times.jpg",
-  },
-  {
-    id: "careers360",
-    source: "Careers360",
-    rank: "Rated A++",
-    description: "India's Best B-Schools in the Country in 2025",
-    survey: "Source: India's Best B-Schools by Careers360",
+    id: "the-times-1",
+    source: "Times B-School",
+    rank: "TOP 10",
+    description: "NICE School of Business Studies, Shobhit Deemed University: Ranked in TOP 10 B-School of India in Private Universities.",
+    survey: "Source: Times B-School Survey January 30, 2026",
     badgeColor: "bg-emerald-50 border-emerald-200/60 text-[#116446]",
     accentColor: "text-emerald-600 group-hover:text-emerald-700",
     bgGradient: "group-hover:border-emerald-500/30 group-hover:shadow-[0_20px_40px_-15px_rgba(16,185,129,0.1)]",
-    logoUrl: "https://cnextassets.careers360.com/frontend-common/_react_common/assets/logo-blue.svg",
+    logoUrl: "https://www.iias.org.in/wp-content/uploads/2025/07/times_b_school.webp",
   },
   {
-    id: "outlook",
-    source: "Outlook",
-    rank: "Ranked 37",
-    description: "Amongst Top Private B-Schools in India",
-    survey: "Outlook-ICARE India Best B-Schools Rankings 2024",
-    published: "Published in Outlook Magazine | July 2024",
+    id: "the-times-2",
+    source: "Times B-School",
+    rank: "TOP 18",
+    description: "NICE School of Business Studies, Shobhit Deemed University: Ranked in TOP 18 B-School of India for Placements.",
+    survey: "Source: Times B-School Survey January 30, 2026",
+    badgeColor: "bg-blue-50 border-blue-200/60 text-blue-800",
+    accentColor: "text-blue-600 group-hover:text-blue-700",
+    bgGradient: "group-hover:border-blue-500/30 group-hover:shadow-[0_20px_40px_-15px_rgba(59,130,246,0.1)]",
+    logoUrl: "https://www.iias.org.in/wp-content/uploads/2025/07/times_b_school.webp",
+  },
+  {
+    id: "the-times-3",
+    source: "Times B-School",
+    rank: "TOP 12",
+    description: "NICE School of Business Studies, Shobhit Deemed University: Ranked in TOP 12 B-School of India In North Zone.",
+    survey: "Source: Times B-School Survey January 30, 2026",
     badgeColor: "bg-amber-50 border-amber-200/60 text-amber-800",
     accentColor: "text-amber-600 group-hover:text-amber-700",
     bgGradient: "group-hover:border-amber-500/30 group-hover:shadow-[0_20px_40px_-15px_rgba(245,158,11,0.1)]",
-    logoUrl: "https://www.clipartmax.com/png/full/112-1126975_open-outlook-com-logo.png",
+    logoUrl: "https://www.iias.org.in/wp-content/uploads/2025/07/times_b_school.webp",
   },
   {
-    id: "the-week",
-    source: "The Week",
-    rank: "Ranked 14",
-    description: "Amongst Top B-Schools in Delhi NCR",
-    survey: "The Week-Hansa Research Survey 2024",
-    published: "The Week Magazine | November 17, 2024",
+    id: "the-times-4",
+    source: "Times B-School",
+    rank: "TOP 27",
+    description: "NICE School of Business Studies, Shobhit Deemed University: Ranked in TOP 27 B-School of India in Overall Ranking.",
+    survey: "Source: Times B-School Survey January 30, 2026",
     badgeColor: "bg-rose-50 border-rose-200/60 text-rose-800",
     accentColor: "text-rose-600 group-hover:text-rose-700",
     bgGradient: "group-hover:border-rose-500/30 group-hover:shadow-[0_20px_40px_-15px_rgba(244,63,94,0.1)]",
-    logoUrl: "https://www.theweek.in/content/dam/revamp-week/logo/THE-WEEK-LOGO.jpg",
+    logoUrl: "https://www.iias.org.in/wp-content/uploads/2025/07/times_b_school.webp",
   },
 ];
 
@@ -75,26 +72,18 @@ export default function BottomCards() {
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808003_1px,transparent_1px),linear-gradient(to_bottom,#80808003_1px,transparent_1px)] bg-[size:16px_16px] pointer-events-none" />
         
         {/* Rankings Header */}
-        <div className="mb-8 flex flex-col sm:flex-row sm:items-end justify-between gap-4 relative z-10">
-          <div>
-            <div className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-zinc-100 border border-zinc-200 rounded-full mb-3">
-              <Award className="w-3.5 h-3.5 text-zinc-600" />
-              <span className="font-mono text-[9px] font-bold text-zinc-600 tracking-widest uppercase">
-                National Accolades
-              </span>
-            </div>
-            <h2 
-              style={{ fontSize: "28px", lineHeight: "34px" }}
-              className="font-excon font-normal text-[#0B1E33] tracking-tight"
-            >
-              Our Rankings
-            </h2>
-          </div>
+        <div className="mb-8 relative z-10">
+          <h2 
+            style={{ fontSize: "28px", lineHeight: "34px" }}
+            className="font-excon font-normal text-[#0B1E33] tracking-tight mb-2"
+          >
+            Our Rankings
+          </h2>
           <p 
             style={{ fontSize: "14px", lineHeight: "22px" }}
-            className="font-ranade font-light text-zinc-500 max-w-md sm:text-right"
+            className="font-ranade font-light text-zinc-500 max-w-xl"
           >
-            Recognized by premium national ranking agencies for outstanding academic standards, pedagogy, and placements.
+            Ranked among India's top B-Schools by Times B-School Survey for academic excellence and placements.
           </p>
         </div>
 
@@ -111,12 +100,12 @@ export default function BottomCards() {
                   <div className="flex items-center justify-between mb-4">
                     {/* Logo Image Container - Rectangular Format */}
                     <div className={`rounded-lg border border-zinc-200/80 bg-white flex items-center justify-center overflow-hidden shadow-sm group-hover:border-zinc-300 transition-colors ${
-                      item.id === "the-times" ? "h-14 w-36 p-0.5" : "h-11 w-28 p-2"
+                      item.id.startsWith("the-times") ? "h-14 w-36 p-0.5" : "h-11 w-28 p-2"
                     }`}>
                       <img 
                         src={item.logoUrl} 
                         alt={`${item.source} logo`} 
-                        className={item.id === "the-times" ? "w-full h-full object-contain" : "max-h-full max-w-full object-contain"}
+                        className={item.id.startsWith("the-times") ? "w-full h-full object-contain" : "max-h-full max-w-full object-contain"}
                         referrerPolicy="no-referrer"
                       />
                     </div>

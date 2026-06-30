@@ -150,7 +150,7 @@ export default function PlacementGallery() {
   };
 
   return (
-    <section id="our-placements-gallery" className="py-16 bg-zinc-50 border-t border-zinc-250/50 relative overflow-hidden">
+    <section id="our-placements-gallery" className="py-16 bg-zinc-50 border-t border-zinc-100 relative overflow-hidden">
       <style>{`
         .scrollbar-none::-webkit-scrollbar {
           display: none;
