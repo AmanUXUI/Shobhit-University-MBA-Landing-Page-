@@ -96,7 +96,7 @@ export default function RecruitersVerticalMarquee() {
               <div>
                 <span className="block font-sans text-xl sm:text-2xl md:text-3xl font-extrabold text-zinc-950 transition-colors duration-300 group-hover:text-[#007a55]">100 %</span>
                 <span className="block font-ranade font-medium text-[11px] sm:text-xs text-zinc-500 mt-1 tracking-wider">
-                  Placement Record
+                  Placement Assistance
                 </span>
               </div>
             </div>
