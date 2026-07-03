@@ -21,6 +21,7 @@ import RecruitersVerticalMarquee from "./components/RecruitersVerticalMarquee";
 import PlacementGallery from "./components/PlacementGallery";
 import NotableAlumniMarquee from "./components/NotableAlumniMarquee";
 import LifeAtShobhit from "./components/LifeAtShobhit";
+import FAQSection from "./components/FAQSection";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -161,6 +162,9 @@ contact: mail@shobhituniversity.ac.in or NH-58, Modipuram, Meerut.
 
       {/* Life @ Shobhit University slider section */}
       <LifeAtShobhit />
+
+      {/* Frequently Asked Questions Section */}
+      <FAQSection />
 
       {/* Royal Shobhit University Footer Section */}
       <Footer />
