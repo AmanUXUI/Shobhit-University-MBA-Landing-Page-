@@ -86,7 +86,7 @@ export default function Footer() {
           </p>
 
           <p className="font-excon font-normal text-[11px] text-[#7da491] tracking-wider uppercase pt-1">
-            Design and Developed By <span className="text-white font-medium hover:text-emerald-400 cursor-pointer transition-colors">Mediagarh</span>
+            Designed and Developed by <span className="text-white font-medium hover:text-emerald-400 cursor-pointer transition-colors">Mediagarh</span>
           </p>
 
         </div>

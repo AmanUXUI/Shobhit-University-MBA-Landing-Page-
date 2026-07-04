@@ -54,7 +54,7 @@ export default function FAQSection() {
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#116446]/5 border border-[#116446]/10 rounded-full w-fit mb-4 mx-auto select-none">
             <HelpCircle className="w-3.5 h-3.5 text-[#116446]" />
             <span className="font-mono text-[10px] font-bold text-[#116446] tracking-widest uppercase">
-              Knowledgebase
+              knowledge base
             </span>
           </div>
           
